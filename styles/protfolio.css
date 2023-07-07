@@ -25,6 +25,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 nav > ul{
   display: flex;
@@ -37,4 +38,17 @@ nav li{
 nav a{
   text-decoration: none;
   color: #474747;
+}
+/* style header area */
+.header{
+  background-color: #fff8f3
+}
+/* style header banner area */
+.banner{
+  display: flex;
+  align-items: center;
+  padding:30px 30px 30px 150px;
+}
+.banner .profile-photo{
+  width: 500px;
 }
